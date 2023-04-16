@@ -53,7 +53,7 @@ function Hero() {
         <section className='w-full lg:h-[500px] bg-[#f5f5f7] rounded-md overflow-hidden p-5 flex flex-col-reverse lg:flex-row justify-around items-center'>
             <section className='lg:w-[50%]'>
                 <h1 className='text-5xl'><span className='text-xl'>Audio Quality?</span> <br />Sounds like an epiphany.</h1>
-                <p className='my-3'>Introducing AirPods Max — a perfect balance of exhilarating high-fidelity audio and the efforgsapess magic of AirPods. 
+                <p className='my-3'>Introducing AirPods Max — a perfect balance of exhilarating high-fidelity audio and the effortless magic of AirPods. 
                     The ultimate personal listening experience is here.</p>
             </section>
             <section>
