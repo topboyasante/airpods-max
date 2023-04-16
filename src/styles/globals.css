@@ -2,26 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  @font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFPRODISPLAYREGULAR.otf') format('opentype');
+    font-weight: lighter;
   }
-}
+  @font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFPRODISPLAYMEDIUM.otf') format('opentype');
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: 'Neue Montreal';
+    src: url('/fonts/SFPRODISPLAYBOLD.otf') format('opentype');
+    font-weight: bold;
+  }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+  *{
+    font-family: 'SF Pro Display';
+  }
+
+.feature-container{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('https://www.apple.com/v/airpods-max/e/images/overview/audio_quality_spatial_figure__clxltt2m0z2a_xlarge.jpg');
+    background-size: cover;
 }
